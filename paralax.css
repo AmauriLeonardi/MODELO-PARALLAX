@@ -1,0 +1,68 @@
+/*configuração de pagina para o efeito*/
+body, html {
+    margin: 0;
+    font: 16px "Lato" sans-serif;
+    color: #777;
+    height: 100%;
+    border: 1px red solid;
+}
+.conteudo {
+    color: #777;
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+h3 {
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+
+}
+p{
+    margin-bottom: 20px;
+}
+/*efeito paralax imagens e textos*/
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6 {
+    border: 1px red solid;
+    position: relative;
+    height: 100%;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.caixa1{
+    background-image: url(../imagens/One-Piece-Episodio-1083-1084-1085-1086.jpg.webp);
+}
+.caixa2{
+    background-image: url(../imagens/one-punch-man-wallpape.webp);
+}
+.caixa3{
+    background-image: url(../imagens/mob\ psycho\ 100.jpg);
+}
+.caixa4{
+    background-image: url(../imagens/ONIMUSHA.jpg);
+}
+.caixa5{
+    background-image: url(../imagens/baki.jpg);
+}
+.caixa6{
+    background-image: url(../imagens/akuma-kun.jpg);
+}
+/*para ficar e centralizar os titulos*/
+.conteudo-titulo{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+.conteudo-titulo span.titulo{
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
